@@ -1,0 +1,135 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #ffcccc;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px 0;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.img {
+    width: 300px;
+    height: 220px;
+    margin-left: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section h2 {
+    color: #333;
+    font-size: 1.5em;
+}
+
+section p {
+    color: #666;
+    line-height: 1.6;
+}
+
+section form {
+    margin-top: 20px;
+}
+
+section form label {
+    font-weight: bold;
+}
+
+section form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+section form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ffcccc;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section form input[type="submit"]:hover {
+    background-color: #ff9999;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #ffcccc;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    color: #333;
+    margin: 0;
+}
+
+/* Estilos responsivos */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    section {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+
+    section h2 {
+        font-size: 1.3em;
+    }
+
+    section p {
+        font-size: 0.9em;
+    }
+
+    section form textarea {
+        font-size: 0.9em;
+    }
+
+    section form input[type="submit"] {
+        padding: 8px 15px;
+    }
+}
